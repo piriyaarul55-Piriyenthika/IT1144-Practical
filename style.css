@@ -1,121 +1,116 @@
 body {
-	font-family:Arial;
-	margin:0;
-	padding:0;
-	line-height:1.6;
-}
-.logo{width:80px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	
-}
-h1{background-color:#1E3A8A;
-	color:#F9FAFB;
-	text-align:center;
-	padding:15px;
-}
-header{
-	background-color:#F1F5F9;
-	position:sticly;
-	top:0;
-	padding:10px 20px;
-margin-top:10px;}
-
-.content-box{
-	border:2px solid #1E3A8A;
-	border-radius:15px;
-	padding:20px;
-	margin:20px;
-	background-color:rgba(255,255,255,0.9);
-	text-align:justify;
-	box-shadow:5px 5px blue;
-}
-
-.content-box h2{color:#1E3A8A;}
+            background-image: url(background.webp); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
 
-.button-container{text-align:center;
-margin:20px 0}
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+			align-items:center;
+			top:0;
+			width:100%;
+			position:fixed;
+		
+			
+           
+        }
 
-.button{
-	background-color:#1E3A8A;
-	color:#F9FAFB;
-	padding:10px 25px;
-	border-radius:8px;
-	text-decoration:none;
-	display:inline-block;
-	transition:background 0.3s;
-}
+        .logo {
+            border-radius:50%;
+			width:100px;
+			height:100px;
+			
+        }
 
-.button:hover{background-color:#162F6A}
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
 
-		.buttom-button {
-			background-color:#0D9488;
-	color:#F9FAFB;
-	padding:10px 20px;
-	border-radius:8px;
-	text-decoration:none;
-}
+        .nav-links a:hover {
+            color: #007bff;
+        }
 
+       
+        .main-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+			margin-top:150px;
+			
+        }
 
-.buttom-button:hover{
-	background-color:#06B65;}
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            color: #007bff;
+        }
 
+       
+        .form-group {
+            margin-bottom:15px
+			
+        }
 
-footer{
-		background-color:#1E3A8A;
-	color:#F9FAFB;
-	text-align:center;
-	padding:15px;
-	position:sticly;
-	bottom:0;
-	width:100%;
-}
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
 
-.gallary-grid{
-	display:grid;
-	grid-template-columns:1fr 1fr;
-	gap:20px;
-	padding:20px;
-}
-.art-card{
-	background:rgba(255, 255, 255,0.9);
-	border:2px solid #1E3A8A;
-	border-radius:10px;
-	text-align:center;
-	box-shadow:0 4px 8px;rgba(0,0,0,0.1);
-	transition:transform 0.3s,box-shadow 0.3s;
-}
-.caption{
-	color:#1E3A8A;
-	font-weight:bold;
-margin-top:10px;
-}
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
 
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
 
-.art-card:hover{
-	transform:scal(1.05);
-	box-shadow:0 10px 20px rgba(30, 58, 138,0.3);
-}
+        button:hover {
+            background-color: #0056b3;
+        }
 
-.art-card img{
-	max-width:100%;
-border-radius:5px;}
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
 
-	
+        th {
+            background-color: #007bff;
+            color: white;
+        }
 
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
+        
+        
